@@ -1,4 +1,5 @@
 require('dotenv').config()
+const localeDomains = require('./config/locale-domains')
 
 export default {
   mode: 'universal',
@@ -66,12 +67,12 @@ export default {
         {
           code: 'en',
           iso: 'en-US',
-          domain: process.env.DOMAIN
+          domain: localeDomains.en
         },
         {
           code: 'ja',
           iso: 'ja',
-          domain: process.env.DOMAIN_JA
+          domain: localeDomains.ja
         }
       ],
       detectBrowserLanguage: false,

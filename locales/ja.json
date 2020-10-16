@@ -91,7 +91,7 @@
     },
     "featureOpenSource": {
       "title": "オープンソース",
-      "text": "Doujinshi.infoはオープンソースプロジェクトであり、コミュニティがコードへの貢献を支援できるようにします。 リポジトリは<a href=\"https://github.com/doujinshi-info/frontend\"> doujinshi-info / frontend </a>のGithubでホストされています。"
+      "text": "Doujinshi.infoはオープンソースプロジェクトであり、コミュニティがコードへの貢献を支援できるようにします。 リポジトリは<a href=\"https://github.com/doujinshi-info/frontend-nuxt\">doujinshi-info/frontend-nuxt</a>のGithubでホストされています。"
     },
     "featurePiracy": {
       "title": "海賊行為なし",
