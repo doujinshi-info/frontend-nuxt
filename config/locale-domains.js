@@ -1,4 +1,4 @@
 module.exports = {
-  en: process.env.DOMAIN_EN,
-  ja: process.env.DOMAIN_JA
+  en: process.env.LOCALE_URL_EN,
+  ja: process.env.LOCALE_URL_JA
 }

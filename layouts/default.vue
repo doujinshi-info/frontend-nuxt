@@ -2,7 +2,7 @@
   <div>
     <b-navbar :fixed-top="true" :shadow="true">
       <template slot="brand">
-        <b-navbar-item tag="router-link" :to="{ path: '/' }">
+        <b-navbar-item href="/">
           <img src="~assets/images/logo.png" alt="Doujinshi.info">
         </b-navbar-item>
       </template>

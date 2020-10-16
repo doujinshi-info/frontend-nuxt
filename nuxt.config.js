@@ -1,8 +1,17 @@
-require('dotenv').config()
 const localeDomains = require('./config/locale-domains')
 
 export default {
-  mode: 'universal',
+  /*
+  ** Runtime Config
+  */
+  publicRuntimeConfig: {
+    pushKey: process.env.PUSH_KEY
+  },
+  privateRuntimeConfig: {
+    axios: {
+      baseURL: process.env.API_URL
+    }
+  },
   /*
   ** Headers of the page
   */
@@ -55,37 +64,12 @@ export default {
     }],
     // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/axios',
-    // Doc: https://github.com/nuxt-community/dotenv-module
-    '@nuxtjs/dotenv',
     // Doc: https://github.com/nuxt-community/pwa-module
     '@nuxtjs/pwa',
     // Doc: https://auth.nuxtjs.org
     '@nuxtjs/auth-next',
     // Doc: https://i18n.nuxtjs.org
-    ['nuxt-i18n', {
-      locales: [
-        {
-          code: 'en',
-          iso: 'en-US',
-          domain: localeDomains.en
-        },
-        {
-          code: 'ja',
-          iso: 'ja',
-          domain: localeDomains.ja
-        }
-      ],
-      detectBrowserLanguage: false,
-      differentDomains: true,
-      defaultLocale: 'en',
-      vueI18n: {
-        fallbackLocale: 'en',
-        messages: {
-          en: require('./locales/en.json'),
-          ja: require('./locales/ja.json')
-        }
-      }
-    }]
+    'nuxt-i18n'
   ],
   pwa: {
     manifest: {
@@ -136,7 +120,35 @@ export default {
   ** See https://axios.nuxtjs.org/options
   */
   axios: {
-    baseURL: process.env.API_URL
+    baseURL: 'https://api.doujinshi.info/v1' // Used as fallback if no runtime config is provided
+  },
+  /*
+  ** i18n module configuration
+  ** See https://i18n.nuxtjs.org/options-reference
+  */
+  i18n: {
+    locales: [
+      {
+        code: 'en',
+        iso: 'en-US',
+        domain: localeDomains.en
+      },
+      {
+        code: 'ja',
+        iso: 'ja',
+        domain: localeDomains.ja
+      }
+    ],
+    detectBrowserLanguage: false,
+    differentDomains: true,
+    defaultLocale: 'en',
+    vueI18n: {
+      fallbackLocale: 'en',
+      messages: {
+        en: require('./locales/en.json'),
+        ja: require('./locales/ja.json')
+      }
+    }
   },
   /*
   ** Build configuration

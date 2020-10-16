@@ -9,7 +9,6 @@ import locale from '~/mixin/locale'
 
 export default {
   mixins: [locale],
-  props: [],
   data () {
     return {
       pushAvailable: false,
@@ -70,7 +69,7 @@ export default {
       if (this.activeSubscription === null) {
         this.serviceWorker.pushManager.subscribe({
           userVisibleOnly: true,
-          applicationServerKey: this.urlB64ToUint8Array(process.env.PUSH_KEY)
+          applicationServerKey: this.urlB64ToUint8Array(this.$config.pushKey)
         }).then((subscription) => {
           this.pushStatus = true
           this.activeSubscription = subscription

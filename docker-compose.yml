@@ -1,0 +1,16 @@
+version: '3.7'
+
+services:
+  nuxt:
+    build: .
+    image: doujinshi/frontend-nuxt:latest
+    ports:
+      - "80:5000"
+    environment:
+      - NUXT_HOST=0.0.0.0
+      - NUXT_PORT=5000
+      - BASE_URL=http://localhost
+      - LOCALE_URL_EN=localhost
+      - LOCALE_URL_JA=ja.localhost
+      - API_URL=https://api.doujinshi.info/v1
+      - PUSH_KEY=
