@@ -7,7 +7,7 @@
 
       <b-dropdown-item has-link aria-role="menuitem">
         <a :href="`/tag/${tag.type.slug}/${tag.slug}/edit`">
-          {{ $t('Commom.edit') }}
+          {{ $t('Common.edit') }}
         </a>
       </b-dropdown-item>
 

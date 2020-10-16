@@ -27,10 +27,10 @@
       order="is-centered"
       range-before="4"
       range-after="4"
-      :aria-next-label="$t('Commom.next')"
-      :aria-previous-label="$t('Commom.prev')"
-      :aria-page-label="$t('Commom.page')"
-      :aria-current-label="$t('Commom.current_page')"
+      :aria-next-label="$t('Common.next')"
+      :aria-previous-label="$t('Common.prev')"
+      :aria-page-label="$t('Common.page')"
+      :aria-current-label="$t('Common.currentPage')"
       @change="onPageChange"
     >
       <b-pagination-button
