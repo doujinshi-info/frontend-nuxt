@@ -1,0 +1,492 @@
+{
+  "Common": {
+    "cancel": "Cancel",
+    "clear": "Clear",
+    "close": "Close",
+    "edit": "Edit",
+    "more": "More",
+    "no": "No",
+    "save": "Save",
+    "submit": "Submit",
+    "undo": "Undo",
+    "yes": "Yes",
+    "next": "Next",
+    "prev": "Previous",
+    "page": "Page",
+    "currentPage": "Current page",
+    "createdAt": "Created at",
+    "updatedAt": "Updated at",
+    "tag": "Tag",
+    "type": "Type"
+  },
+  "Meta": {
+    "Description": {
+      "viewDoujin": "Information about the doujinshi, {book}, by {artist}.",
+      "viewTag": "Information about doujinshi associated with the {type} {tag}.",
+      "statistics": "Statistical information of the overall doujinshi.info database."
+    }
+  },
+  "Navigation": {
+    "about": "About",
+    "account": "Account",
+    "accountFollowing": "Following",
+    "accountLibrary": "Library",
+    "accountNotifications": "Notifications",
+    "accountProfile": "Profile",
+    "accountSettings": "Settings",
+    "accountWishlist": "Wishlist",
+    "changelog": "Changelog",
+    "contribute": "Contribute",
+    "contributeDoujinshi": "Create doujinshi",
+    "contributeImport": "Import doujinshi",
+    "contributeTag": "Create tag",
+    "home": "Home",
+    "login": "Login",
+    "logout": "Logout",
+    "search": "Search",
+    "signup": "Sign up",
+    "statistics": "Statistics",
+    "tags": "Tags"
+  },
+  "Report": {
+    "buttonText": "Report",
+    "title": "Report",
+    "notes": "Notes",
+    "reasonDuplicate": "Duplicate",
+    "reasonSpam": "Spam",
+    "reasonRemoval": "Removal request",
+    "reasonOther": "Other",
+    "successMessage": "Your report has been received."
+  },
+  "Collection": {
+    "saveTo": "Save to...",
+    "library": "Library",
+    "wishlist": "Wishlist",
+    "savedMessage": "Saved to collection",
+    "removedMessage": "Removed from collection"
+  },
+  "Follow": {
+    "following": "Following",
+    "follow": "Follow"
+  },
+  "PageFollowing": {
+    "title": "Followed tags"
+  },
+  "PageHome": {
+    "title": "Doujinshi.info"
+  },
+  "PageEditBook": {
+    "title": "Edit doujin"
+  },
+  "PageChangelog": {
+    "title": "Changelog"
+  },
+  "PageAbout": {
+    "title": "About",
+    "textOpening": "Doujinshi.info is an information database containing data on self-published works known as doujinshi. The goal of this project is to catalog, tag, and categorize as many doujinshi as possible. With this community driven data, we are able to provide interesting statistics regarding the doujinshi scene as a whole. Such as average page counts, most common themes, average prices, etc. Along with this, users are able to catalog their physical doujinshi collections to keep track of what they own, as well as follow their favorite artists, or tags, to discover newly released doujinshi.",
+    "textDisclaimer": "This site's goals are purely academic, and does not offer the ability to download any of the doujinshi featured here. We only provide information and statistics about the doujinshi.",
+    "featureCommunity": {
+      "title": "Community",
+      "text": "Doujinshi.info is a community driven project. Users help contribute to the information database by uploading, tagging, and categorizing."
+    },
+    "featureOpenSource": {
+      "title": "Open Source",
+      "text": "Doujinshi.info is an open source project, allowing the community to help contribute to the code. The repository is hosted over on Github at <a href=\"https://github.com/doujinshi-info/frontend\">doujinshi-info/frontend</a>."
+    },
+    "featurePiracy": {
+      "title": "No Piracy",
+      "text": "Doujinshi.info is an informational based site. There is no ability to download the doujinshi featured on this site. We do not support the piracy of doujinshi."
+    }
+  },
+  "PageSignUp": {
+    "title": "Sign up",
+    "displayName": "Display name",
+    "username": "Username",
+    "email": "Email",
+    "password": "Password",
+    "confirmPassword": "Confirm Password",
+    "loginLink": "Already registered? Login",
+    "signUpButton": "Create account"
+  },
+  "PageSignIn": {
+    "title": "Login",
+    "email": "Email",
+    "password": "Password",
+    "forgotPasswordLink": "Forgot password",
+    "loginButton": "Login"
+  },
+  "PageForgotPassword": {
+    "title": "Forgot password",
+    "email": "Email",
+    "newPassword": "New password",
+    "confirmNewPassword": "Confirm new password",
+    "returnLink": "Return to login",
+    "resetPasswordButton": "Reset password",
+    "passwordRequestMessage": "Your password reset request has been processed. Please check your email inbox.",
+    "passwordChangedMessage": "Your password has been changed."
+  },
+  "PageUserProfile": {
+    "dateJoined": "Date joined",
+    "libraryEstimatedValue": "Estimated value",
+    "contributions": "Contributions",
+    "library": "Library",
+    "wishlist": "Wishlist"
+  },
+  "ProfileTab": {
+    "information": "Information",
+    "library": "Library",
+    "wishlist": "Wishlist",
+    "contributions": "Contributions"
+  },
+  "PageStatistics": {
+    "title": "Statistics"
+  },
+  "PageTags": {
+    "title": "Tags",
+    "tag": "Tag",
+    "type": "Type"
+  },
+  "PageCreateDoujin": {
+    "title": "Contribute doujinshi"
+  },
+  "PageEditTag": {
+    "title": "Edit tag"
+  },
+  "PageCreateTag": {
+    "title": "Contribute tag"
+  },
+  "PageAccountSettings": {
+    "title": "Account settings",
+    "profileInformation": "Profile information",
+    "profilePrivacy": "Profile privacy",
+    "public": "Public",
+    "private": "Private",
+    "securityTitle": "Security",
+    "currentPassword": "Current password",
+    "newPassword": "New password",
+    "confirmNewPassword": "Confirm new password",
+    "settingsUpdatedMessage": "Your information has been updated",
+    "displayName": "Display name",
+    "email": "Email"
+  },
+  "PageAccountNotifications": {
+    "title": "Notifications",
+    "noResults": "No notifications found",
+    "markAllRead": "Mark all as read",
+    "desktopNotifications": "Get notifications in this browser",
+    "newDoujinText": "The {tag} tag you follow had a new doujinshi added: {book}."
+  },
+  "PageImportDoujinshi": {
+    "title": "Import",
+    "storeUrl": "Store URL",
+    "importSuccessMessage": "Import job successfully scheduled."
+  },
+  "Statistics": {
+    "totalDoujinshi": "Total doujinshi",
+    "totalTags": "Total tags",
+    "totalCircles": "Total circles",
+    "totalArtists": "Total artists",
+    "totalContents": "Total contents",
+    "totalSeries": "Total series",
+    "totalCharacters": "Total characters",
+    "totalConventions": "Total conventions",
+    "totalCollections": "Total collections",
+    "totalUsers": "Total users",
+    "averagePrice": "Average price",
+    "averagePages": "Average page count",
+    "originalRatio": "Original : Parody ratio",
+    "mostWorksArtists": "Most works by artist",
+    "mostWorksCircle": "Most works by circle",
+    "mostWorksConvention": "Most works by convention",
+    "commonSeries": "Most common series",
+    "commonCharacters": "Most common characters",
+    "commonContent": "Most common content",
+    "contributions": "Contributions"
+  },
+  "Filter": {
+    "buttonText": "Filter",
+    "releaseDate": "Release date",
+    "releaseDatePlaceholder": "Click to select date range..."
+  },
+  "Doujin": {
+    "titleOriginal": "Original title",
+    "titleRomaji": "Romanized title",
+    "titleEnglish": "English title",
+    "releaseDate": "Release date",
+    "price": "Price",
+    "pages": "Pages",
+    "isAdult": "Adult Content",
+    "isAnthology": "Anthology",
+    "isCopybook": "Copybook",
+    "isNovel": "Novel",
+    "language": "Language",
+    "censoring": "Censoring",
+    "convention": "Convention",
+    "artists": "Artists",
+    "circles": "Circles",
+    "series": "Series",
+    "characters": "Characters",
+    "content": "Content",
+    "links": "Links",
+    "images": "Images",
+    "cover": "Cover image",
+    "samples": "Sample images",
+    "imageUploadMessage": "Choose images files",
+    "imageUploadErrorSize": "Files should not exceed 5MB in size",
+    "imageUploadErrorType": "Invalid file type. Only images allowed",
+    "imageUploadDeleteConfirm": "Are you sure you want to remove this image?"
+  },
+  "TagTabs": {
+    "information": "Information",
+    "statistics": "Statistics",
+    "changelog": "Changelog"
+  },
+  "Tag": {
+    "type": "Type",
+    "typePlaceholder": "Select type...",
+    "nameOriginal": "Original name",
+    "nameRomaji": "Romanized name",
+    "nameEnglish": "English name",
+    "nameAliases": "Other names",
+    "eventDates": "Event dates",
+    "descriptionEnglish": "Description (english)",
+    "descriptionJapanese": "Description (japanese)",
+    "artists": "Artists",
+    "circles": "Circles",
+    "series": "Series",
+    "links": "Links"
+  },
+  "TagTypes": {
+    "artist": "Artist",
+    "circle": "Circle",
+    "character": "Character",
+    "content": "Content",
+    "series": "Series",
+    "convention": "Convention",
+    "language": "Language",
+    "collection": "Collection"
+  },
+  "Links": {
+    "toranoana": "Toranoana",
+    "pixiv": "Pixiv",
+    "melonbooks": "Melonbooks",
+    "boothpm": "Booth.pm",
+    "twitter": "Twitter",
+    "circlems": "Circle.ms",
+    "amazon": "Amazon",
+    "patreon": "Patreon",
+    "enty": "Enty",
+    "fantia": "Fantia",
+    "alice": "Alice Books",
+    "dlsite": "DLsite",
+    "dmm": "DMM / FANZA"
+  },
+  "Contribution": {
+    "transaction": "Transaction",
+    "object": "Object",
+    "operation": "Operation",
+    "create": "Creation",
+    "update": "Update",
+    "delete": "Deletion",
+    "contributor": "Contributor",
+    "amount": "Amount",
+    "differences": "Differences",
+    "data": "Data",
+    "oldValue": "Old value",
+    "newValue": "New value",
+    "noChanges": "No changes found",
+    "tag": "Tag",
+    "doujinshi": "Doujinshi",
+    "type": "Type",
+    "noResults": "No changes found",
+    "diff": {
+      "book": {
+        "slug": "Slug",
+        "name_original": "Original Title",
+        "name_romaji": "Romanized Title",
+        "name_english": "English Title",
+        "release_date": "Release Date",
+        "date_released": "Release Date",
+        "language": "Language",
+        "censoring": "Censoring",
+        "price": "Price (in Yen)",
+        "pages": "Pages",
+        "convention": "Convention",
+        "is_novel": "Novel",
+        "is_adult": "Adult Content",
+        "is_copybook": "Copybook",
+        "is_anthology": "Anthology",
+        "cover": "Cover Image",
+        "samples": "Sample Images",
+        "links": "Links"
+      },
+      "tag": {
+        "slug": "Slug",
+        "name_original": "Original Name",
+        "name_romaji": "Romanized Name",
+        "name_english": "English Name",
+        "name_other": "Other Names",
+        "type": "Type",
+        "event_dates": "Event Dates",
+        "event_start": "Start Date",
+        "event_end": "End Date",
+        "description_english": "English Description",
+        "description_japanese": "Japanese Description"
+      }
+    }
+  },
+  "PageSearchResults": {
+    "title": "Search Results"
+  },
+  "Search": {
+    "placeholder": "Search...",
+    "type": {
+      "doujin": "Doujin",
+      "artist": "Artist",
+      "circle": "Circle",
+      "character": "Character",
+      "content": "Content",
+      "series": "Series",
+      "convention": "Convention"
+    },
+    "noResults": "No results found"
+  },
+  "errors":{
+    "image_no_results":"No results found.",
+    "general":"An error occurred. Please try again.",
+    "access_denied":"Access denied.",
+    "access_token_missing":"Access token invalid.",
+    "refresh_token_expired":"Refresh token expired.",
+    "reset_invalid":"Password reset request invalid.",
+    "cannot_revert":"Cannot revert the initial creation. Please submit a deletion request.",
+    "rate_limit":"Please wait a few minutes before trying this again.",
+    "notification_invalid":"Notification is invalid.",
+    "notification":{
+    "required":"Notification is missing."
+    },
+    "book":{
+      "required":"Book missing"
+    },
+    "user":{
+      "invalid":"Sorry, we could not find an account with those credentials.",
+      "required":"User missing",
+      "banned":"Sorry, this account has been banned."
+    },
+    "refresh_token":{
+      "required":"Refresh token is required."
+    },
+    "name":{
+      "required":"The name field is required.",
+      "unique":"This name has already been taken.",
+      "alpha_num":"Name can only be alpha numeric characters."
+    },
+    "email":{
+      "required":"The email field is required.",
+      "invalid":"The email given was an invalid format.",
+      "unique":"This email address is already registered."
+    },
+    "password":{
+      "required":"The password field is required.",
+      "confirm":"Your password confirmation does not match.",
+      "required_with":"The password field is required."
+    },
+    "new_password":{
+      "required_with":"The new password field is required."
+    },
+    "password_confirmation":{
+      "required":"The password confirmation field is required."
+    },
+    "name_japanese":{
+      "required":"The Original name/title field is required."
+    },
+    "date_released":{
+      "invalid":"The date released field is invalid."
+    },
+    "pages":{
+      "numeric":"The page field must be a number."
+    },
+    "price":{
+      "numeric":"The price field must be a number."
+    },
+    "is_copybook":{
+      "bool":"The copybook field must be yes or no."
+    },
+    "is_anthology":{
+      "bool":"The anthology field must be yes or no."
+    },
+    "is_adult":{
+      "bool":"The adult field must be yes or no."
+    },
+    "is_novel":{
+      "bool":"The novel field must be yes or no."
+    },
+    "cover":{
+      "image":"The cover file must be an image.",
+      "max":"The cover file is higher than the maximum allowed file size."
+    },
+    "samples":{
+      "image":"The sample file must be an image.",
+      "max":"The sample file is higher than the maximum allowed file size."
+    },
+    "links":{
+      "invalid":"The submitted link is invalid.",
+      "toranoana":{
+        "invalid":"The submitted link to Toranoana is invalid."
+      },
+      "pixiv":{
+        "invalid":"The submitted link to Pixiv is invalid."
+      },
+      "twitter":{
+        "invalid":"The submitted link to Twitter is invalid."
+      },
+      "melonbooks":{
+        "invalid":"The submitted link to Melon Books is invalid."
+      },
+      "boothpm":{
+        "invalid":"The submitted link to Booth.pm is invalid."
+      },
+      "amazon":{
+        "invalid":"The submitted link to Amazon is invalid."
+      }
+    },
+    "url":{
+      "required":"The url field is required."
+    },
+    "content_type":{
+      "required":"The type field is required."
+    },
+    "content":{
+      "required":"The content is required."
+    },
+    "reason":{
+      "required":"The reason field is required.",
+      "max":"The reason text has too many characters."
+    },
+    "status":{
+      "required":"The status field is required."
+    },
+    "transaction_id":{
+      "required":"The transaction value is missing."
+    },
+    "image":{
+      "required":"The image is required.",
+      "invalid":"The image must be an image.",
+      "max":"The image is larger than the allowed file size."
+    },
+    "type":{
+      "required":"The type field is required"
+    },
+    "description_english":{
+      "max":"The english description length is too long."
+    },
+    "description_japanese":{
+      "max":"The japanese description length is too long."
+    },
+    "date_start":{
+      "invalid":"The start date is invalid."
+    },
+    "date_end":{
+      "invalid":"The end date is invalid."
+    }
+  }
+}

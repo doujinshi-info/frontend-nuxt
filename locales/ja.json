@@ -1,0 +1,493 @@
+{
+  "Common": {
+    "cancel": "キャンセル",
+    "clear": "晴れ",
+    "close": "閉じる",
+    "edit": "編集",
+    "more": "もっと",
+    "no": "いいえ",
+    "save": "保存する",
+    "submit": "参加する",
+    "undo": "元に戻す",
+    "yes": "はい",
+    "next": "次",
+    "prev": "前",
+    "page": "ページ",
+    "currentPage": "現在のページ",
+    "createdAt": "作成日",
+    "updatedAt": "最終更新日",
+    "tag": "鬼ごっこ",
+    "type": "タイプ"
+  },
+  "Meta": {
+    "Description": {
+      "viewDoujin": "{artist}が作成した同人誌「{book}」に関する情報。",
+      "viewTag": "{type}{tag}に関連付けられている同人誌に関する情報。",
+      "statistics": "Doujinshi.infoデータベース全体の統計情報"
+    }
+  },
+  "Navigation": {
+    "about": "約",
+    "account": "アカウント",
+    "accountFollowing": "フォローする",
+    "accountLibrary": "文庫",
+    "accountNotifications": "通知",
+    "accountProfile": "プロフィール",
+    "accountSettings": "設定",
+    "accountWishlist": "ウィッシュリスト",
+    "changelog": "変更ログ",
+    "contribute": "寄稿",
+    "contributeDoujinshi": "同人誌を作成する",
+    "contributeImport": "輸入同人誌",
+    "contributeTag": "タグを作成する",
+    "home": "ホーム",
+    "login": "ログイン",
+    "logout": "ログアウト",
+    "search": "サーチ",
+    "signup": "登録",
+    "statistics": "統計",
+    "tags": "タグ"
+  },
+  "Report": {
+    "buttonText": "報告する",
+    "title": "報告する",
+    "notes": "ノート",
+    "reasonDuplicate": "複製",
+    "reasonSpam": "スパム",
+    "reasonRemoval": "削除依頼",
+    "reasonOther": "その他の",
+    "successMessage": "レポートを受け取りました。"
+  },
+  "Collection": {
+    "saveTo": "に保存...",
+    "library": "図書館",
+    "wishlist": "ウィッシュリスト",
+    "savedMessage": "コレクションに保存しました",
+    "removedMessage": "コレクションから削除しました"
+  },
+  "Follow": {
+    "following": "以下",
+    "follow": "従う"
+  },
+  "PageFollowing": {
+    "title": "フォロー中のタグ"
+  },
+  "PageHome": {
+    "title": "Doujinshi.info"
+  },
+  "PageEditBook": {
+    "title": "同人を編集"
+  },
+  "PageChangelog": {
+    "title": "変更ログ"
+  },
+  "PageAbout": {
+    "title": "約",
+    "textOpening": "Doujinshi.infoは、同人誌と呼ばれる自費出版の作品に関するデータを含む情報データベースです。 このプロジェクトの目標は、できるだけ多くの同人誌をカタログ化し、タグ付けし、分類することです。 このコミュニティ主導のデータにより、同人誌シーン全体に関する興味深い統計を提供できます。 平均ページ数、最も一般的なテーマ、平均価格など。これに加えて、ユーザーは物理的な同人誌コレクションをカタログ化して自分の所有物を追跡したり、お気に入りのアーティストやタグをフォローして新しく発見したりできます。 同人誌をリリースしました。",
+    "textDisclaimer": "このサイトの目標は純粋に学術的なものであり、ここに掲載されている同人誌をダウンロードする機能は提供していません。 同人誌に関する情報と統計のみを提供します。",
+    "featureCommunity": {
+      "title": "コミュニティ",
+      "text": "Doujinshi.infoはコミュニティ主導のプロジェクトです。 ユーザーは、アップロード、タグ付け、および分類により、情報データベースへの貢献を支援します。"
+    },
+    "featureOpenSource": {
+      "title": "オープンソース",
+      "text": "Doujinshi.infoはオープンソースプロジェクトであり、コミュニティがコードへの貢献を支援できるようにします。 リポジトリは<a href=\"https://github.com/doujinshi-info/frontend\"> doujinshi-info / frontend </a>のGithubでホストされています。"
+    },
+    "featurePiracy": {
+      "title": "海賊行為なし",
+      "text": "Doujinshi.infoは情報ベースのサイトです。 このサイトに掲載されている同人誌をダウンロードする機能はありません。 同人誌の海賊行為はサポートしていません。"
+    }
+  },
+  "PageSignUp": {
+    "title": "サインアップ",
+    "displayName": "表示名",
+    "username": "ユーザー名",
+    "email": "Eメール",
+    "password": "パスワード",
+    "confirmPassword": "パスワードを認証する",
+    "loginLink": "すでに登録？ ログインする",
+    "signUpButton": "アカウントを作成する"
+  },
+  "PageSignIn": {
+    "title": "ログインする",
+    "email": "Eメール",
+    "password": "パスワード",
+    "forgotPasswordLink": "パスワードをお忘れですか",
+    "loginButton": "ログインする"
+  },
+  "PageForgotPassword": {
+    "title": "パスワードをお忘れですか",
+    "email": "Eメール",
+    "newPassword": "新しいパスワード",
+    "confirmNewPassword": "新しいパスワードを確認",
+    "returnLink": "ログインに戻る",
+    "resetPasswordButton": "パスワードを再設定する",
+    "passwordRequestMessage": "パスワードのリセットリクエストが処理されました。 メールの受信トレイを確認してください。",
+    "passwordChangedMessage": "あなたのパスワードは変更されました。"
+  },
+  "PageUserProfile": {
+    "dateJoined": "加入日",
+    "libraryEstimatedValue": "推定値",
+    "contributions": "貢献",
+    "library": "図書館",
+    "wishlist": "ウィッシュリスト"
+  },
+  "ProfileTab": {
+    "information": "情報",
+    "library": "図書館",
+    "wishlist": "ウィッシュリスト",
+    "contributions": "貢献"
+  },
+  "PageStatistics": {
+    "title": "統計学"
+  },
+  "PageTags": {
+    "title": "タグ",
+    "tag": "鬼ごっこ",
+    "type": "タイプ"
+  },
+  "PageCreateDoujin": {
+    "title": "同人誌に寄稿"
+  },
+  "PageEditTag": {
+    "title": "タグを編集"
+  },
+  "PageCreateTag": {
+    "title": "投稿タグ"
+  },
+  "PageAccountSettings": {
+    "title": "アカウント設定",
+    "profileInformation": "プロフィール情報",
+    "profilePrivacy": "プロフィールのプライバシー",
+    "public": "公衆",
+    "private": "民間",
+    "securityTitle": "安全保障",
+    "currentPassword": "現在のパスワード",
+    "newPassword": "新しいパスワード",
+    "confirmNewPassword": "新しいパスワードを確認",
+    "settingsUpdatedMessage": "あなたの情報が更新されました",
+    "displayName": "表示名",
+    "email": "Eメール"
+  },
+  "PageAccountNotifications": {
+    "title": "お知らせ",
+    "noResults": "通知は見つかりませんでした",
+    "markAllRead": "すべて既読にする",
+    "desktopNotifications": "このブラウザで通知を受け取る",
+    "newDoujinText": "フォローしている{tag}タグに新しい同人誌が追加されました：{book}。"
+  },
+  "PageImportDoujinshi": {
+    "title": "インポート",
+    "storeUrl": "ストアURL",
+    "importSuccessMessage": "インポートジョブが正常にスケジュールされました。"
+  },
+  "Statistics": {
+    "totalDoujinshi": "総同人誌",
+    "totalTags": "合計タグ",
+    "totalCircles": "合計サークル",
+    "totalArtists": "アーティスト総数",
+    "totalContents": "合計内容",
+    "totalSeries": "総シリーズ",
+    "totalCharacters": "総文字数",
+    "totalConventions": "総大会",
+    "totalCollections": "総コレクション",
+    "totalUsers": "総ユーザー",
+    "averagePrice": "平均価格",
+    "averagePages": "平均ページ数",
+    "originalRatio": "オリジナル：パロディー比",
+    "mostWorksArtists": "アーティストによるほとんどの作品",
+    "mostWorksCircle": "ほとんどの作品はサークル",
+    "mostWorksConvention": "ほとんどは慣例で動作します",
+    "commonSeries": "最も一般的なシリーズ",
+    "commonCharacters": "最も一般的な文字",
+    "commonContent": "最も一般的なコンテンツ",
+    "contributions": "貢献"
+  },
+  "Filter": {
+    "buttonText": "フィルタ",
+    "releaseDate": "発売日",
+    "releaseDatePlaceholder": "クリックして日付範囲を選択..."
+  },
+  "Doujin": {
+    "titleOriginal": "元のタイトル",
+    "titleRomaji": "ローマ字タイトル",
+    "titleEnglish": "英語タイトル",
+    "releaseDate": "発売日",
+    "price": "価格",
+    "pages": "ページ",
+    "isAdult": "成人コンテンツ",
+    "isAnthology": "アンソロジー",
+    "isCopybook": "コピーブック",
+    "isNovel": "小説",
+    "language": "言語",
+    "censoring": "検閲",
+    "convention": "コンベンション",
+    "artists": "アーティスト",
+    "circles": "サークル",
+    "series": "シリーズ",
+    "characters": "キャラクター",
+    "content": "コンテンツ",
+    "links": "リンク集",
+    "images": "画像",
+    "cover": "表紙画像",
+    "samples": "サンプル画像",
+    "imageUploadMessage": "画像ファイルを選択",
+    "imageUploadErrorSize": "ファイルのサイズは5MBを超えないようにしてください",
+    "imageUploadErrorType": "無効なファイルタイプ。 画像のみ許可されています",
+    "imageUploadDeleteConfirm": "この画像を削除してもよろしいですか？"
+  },
+  "TagTabs": {
+    "information": "情報",
+    "statistics": "統計学",
+    "changelog": "変更ログ"
+  },
+  "Tag": {
+    "type": "タイプ",
+    "typePlaceholder": "タイプを選択...",
+    "nameOriginal": "元の名前",
+    "nameRomaji": "ローマ字名",
+    "nameEnglish": "英語名",
+    "nameAliases": "他の名前",
+    "eventDates": "イベント日程",
+    "descriptionEnglish": "説明（英語）",
+    "descriptionJapanese": "説明（日本語）",
+    "artists": "アーティスト",
+    "circles": "サークル",
+    "series": "シリーズ",
+    "links": "リンク集"
+  },
+  "TagTypes": {
+    "artist": "アーティスト",
+    "circle": "サークル",
+    "character": "キャラクター",
+    "content": "コンテンツ",
+    "series": "シリーズ",
+    "convention": "コンベンション",
+    "language": "言語",
+    "collection": "コレクション"
+  },
+  "Links": {
+    "toranoana": "とらのあな",
+    "pixiv": "ピクシブ",
+    "melonbooks": "メロンブックス",
+    "boothpm": "Booth.pm",
+    "twitter": "ツイッター",
+    "circlems": "Circle.ms",
+    "amazon": "アマゾン",
+    "patreon": "パトレオン",
+    "enty": "Enty",
+    "fantia": "ファンティア",
+    "alice": "アリスブックス",
+    "dlsite": "DLsite",
+    "dmm": "DMM / FANZA"
+  },
+  "Contribution": {
+    "transaction": "トランザクション",
+    "object": "オブジェクト",
+    "operation": "操作",
+    "create": "創作",
+    "update": "更新",
+    "delete": "削除",
+    "contributor": "寄稿者",
+    "amount": "量",
+    "differences": "違い",
+    "data": "データ",
+    "oldValue": "古い値",
+    "newValue": "新しい価値",
+    "noChanges": "変更は見つかりませんでした",
+    "tag": "鬼ごっこ",
+    "doujinshi": "同人誌",
+    "type": "タイプ",
+    "noResults": "変更は見つかりませんでした",
+    "diff": {
+      "book": {
+        "slug": "ナメクジ",
+        "name_original": "元のタイトル",
+        "name_romaji": "ローマ字タイトル",
+        "name_english": "英語タイトル",
+        "release_date": "発売日",
+        "date_released": "発売日",
+        "language": "言語",
+        "censoring": "検閲",
+        "price": "価格（円）",
+        "pages": "ページ",
+        "convention": "コンベンション",
+        "is_novel": "小説",
+        "is_adult": "成人コンテンツ",
+        "is_copybook": "コピーブック",
+        "is_anthology": "アンソロジー",
+        "cover": "表紙画像",
+        "samples": "サンプル画像",
+        "links": "リンク集"
+      },
+      "tag": {
+        "slug": "ナメクジ",
+        "name_original": "元の名前",
+        "name_romaji": "ローマ字名",
+        "name_english": "英語名",
+        "name_other": "他の名前",
+        "type": "タイプ",
+        "event_dates": "イベント日程",
+        "event_start": "開始日",
+        "event_end": "終了日",
+        "description_english": "英語の説明",
+        "description_japanese": "日本語の説明"
+      }
+    }
+  },
+  "PageSearchResults": {
+    "title": "の検索結果"
+  },
+  "Search": {
+    "placeholder": "探す...",
+    "type": {
+      "doujin": "同人",
+      "artist": "アーティスト",
+      "circle": "サークル",
+      "character": "キャラクター",
+      "content": "コンテンツ",
+      "series": "シリーズ",
+      "convention": "コンベンション"
+    },
+    "noResults": "結果が見つかりません"
+  },
+  "errors":{
+    "image_no_results":"結果が見つかりません。",
+    "general":"エラーが発生しました。 もう一度お試しください。",
+    "access_denied":"アクセスが拒否されました。",
+    "access_token_missing":"アクセス・トークンが無効です。",
+    "refresh_token_expired":"リフレッシュ・トークンが失効しました。",
+    "reset_invalid":"パスワードリセット要求が無効です。",
+    "cannot_revert":"最初の作成を元に戻すことはできません。 削除リクエストを送信してください。",
+    "rate_limit":"もう一度試してください。",
+    "notification_invalid":"通知は無効です。",
+    "notification":{
+      "required":"通知がありません。"
+    },
+    "book":{
+      "required":"予約不足"
+    },
+    "user":{
+      "invalid":"申し訳ありませんが、これらの資格情報を持つアカウントを見つけることができませんでした。",
+      "required":"ユーザーがいない",
+      "banned":"申し訳ありませんが、このアカウントは禁止されています。"
+    },
+    "refresh_token":{
+      "required":"リフレッシュトークンが必要です。"
+    },
+    "name":{
+      "required":"名前欄は必須です。",
+      "unique":"この名前はすでに使用されています。",
+      "alpha_num":"名前に使用できるのは英数字のみです。"
+    },
+    "email":{
+      "required":"電子メールフィールドは必須です。",
+      "invalid":"指定されたメールは無効な形式です。",
+      "unique":"このメールアドレスはすでに登録されています。"
+    },
+    "password":{
+      "required":"パスワードフィールドは必須です。",
+      "confirm":"パスワードの確認が一致しません。",
+      "required_with":"パスワードフィールドは必須です。"
+    },
+    "new_password":{
+      "required_with":"新しいパスワードフィールドは必須です。",
+      "confirmation":""
+    },
+    "password_confirmation":{
+      "required":"パスワード確認フィールドは必須です。"
+    },
+    "name_japanese":{
+      "required":"元の名前/タイトルフィールドは必須です。"
+    },
+    "date_released":{
+      "invalid":"リリースされた日付の日付は無効です。"
+    },
+    "pages":{
+      "numeric":"ページフィールドは数字でなければなりません。"
+    },
+    "price":{
+      "numeric":"価格フィールドは数字でなければなりません。"
+    },
+    "is_copybook":{
+      "bool":"コピーブックセクションは、はいまたはいいえのみにすることができます。"
+    },
+    "is_anthology":{
+      "bool":"アンソロジーセクションは、「はい」または「いいえ」のみにすることができます。"
+    },
+    "is_adult":{
+      "bool":"大人のセクションは、「はい」または「いいえ」のみにすることができます。"
+    },
+    "is_novel":{
+      "bool":"斬新なセクションは、イエスかノーのみであることができます。"
+    },
+    "cover":{
+      "image":"カバーファイルはイメージでなければなりません。",
+      "max":"カバーファイルは、許可されている最大ファイルサイズよりも大きいです。"
+    },
+    "samples":{
+      "image":"サンプルファイルはイメージでなければなりません。",
+      "max":"サンプルファイルは、許可されている最大ファイルサイズを超えています。"
+    },
+    "links":{
+      "invalid":"送信されたリンクは無効です。",
+      "toranoana":{
+         "invalid":"Toranoanaへの提出されたリンクは無効です。"
+      },
+      "pixiv":{
+         "invalid":"Pixivへの提出されたリンクは無効です。"
+      },
+      "twitter":{
+         "invalid":"Twitterへの送信されたリンクが無効です。"
+      },
+      "melonbooks":{
+         "invalid":"メロンブックへの提出されたリンクは無効です。"
+      },
+      "boothpm":{
+         "invalid":"Booth.pmへの提出されたリンクは無効です。"
+      },
+      "amazon":{
+         "invalid":"Amazonへの提出されたリンクが無効です。"
+      }
+    },
+    "url":{
+      "required":"urlフィールドは必須です。"
+    },
+    "content_type":{
+      "required":"タイプフィールドは必須です。"
+    },
+    "content":{
+      "required":"内容は必須です。"
+    },
+    "reason":{
+      "required":"理由フィールドは必須です。",
+      "max":"理由テキストの文字数が多すぎます。"
+    },
+    "status":{
+      "required":"ステータスフィールドは必須です。"
+    },
+    "transaction_id":{
+      "required":"トランザクション値がありません。"
+    },
+    "image":{
+      "required":"画像が必要です。",
+      "invalid":"イメージはイメージでなければなりません。",
+      "max":"画像が許可されているファイルサイズを超えています。"
+    },
+    "type":{
+      "required":"タイプフィールドは必須です。"
+    },
+    "description_english":{
+      "max":"英語の説明の長さが長すぎます。"
+    },
+    "description_japanese":{
+      "max":"日本語の説明の長さが長すぎます。"
+    },
+    "date_start":{
+      "invalid":"開始日が無効です。"
+    },
+    "date_end":{
+      "invalid":"終了日は無効です。"
+    }
+  }
+}

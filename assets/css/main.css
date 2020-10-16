@@ -1,0 +1,331 @@
+
+
+.mdi-128px.mdi-set, .mdi-128px.mdi:before {
+  font-size: 128px;
+}
+
+body { padding-top: 52px; background: #fafafa; }
+.footer { padding: 1rem 1.5rem 1rem; }
+.section { padding: 1rem 1.5rem; }
+.navbar .navbar-burger {
+  background-color: transparent;
+  border: none;
+}
+
+.book-table th { width: 15%; }
+
+.button:focus:not(:active), .button.is-focused:not(:active) {
+  box-shadow: none;
+}
+
+.tabs { background-color: whitesmoke; }
+.tabs:not(:last-child) { margin-bottom: 0; }
+
+// search
+.navbar-grow { flex-grow: 1; }
+
+.search-image {
+  width: 0;
+  height: 0;
+  visibility: hidden;
+  position: absolute;
+}
+
+.menu-badge { margin-left: 0.5rem; }
+
+.navbar-item {
+  &.has-dropdown {
+    .navbar-dropdown {
+      display: none;
+    }
+    &.is-active {
+      .navbar-dropdown {
+        display: block;
+      }
+    }
+  }
+}
+
+.navbar-item.is-active .navbar-link:not(.is-arrowless)::after {
+  transform: rotateZ(135deg);
+}
+
+.navbar-menu.is-active {
+  -webkit-box-shadow: 0px 10px 5px -4px rgba(0,0,0,0.28);
+  -moz-box-shadow: 0px 10px 5px -4px rgba(0,0,0,0.28);
+  box-shadow: 0px 10px 5px -4px rgba(0,0,0,0.28);
+  border-bottom: 1px solid rgba(0,0,0,0.3);
+}
+
+//.alert-message { padding: 1rem 1.5rem 0 1.5rem; }
+.alert-message .message-header { border-radius: 0; }
+
+.tag-cloud { margin-top: 1rem; }
+
+.book-list .column {
+  padding: 1rem;
+}
+
+.book-block {
+  text-align: center;
+  font-size: 0.8rem;
+  box-shadow: 0 1px 4px 0 rgba(0,0,0,0.37);
+  height: 100%;
+  display: flex;
+  transition: box-shadow 0.28s cubic-bezier(0.4,0,0.2,1);
+}
+
+.book-block:hover {
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.2), 0 6px 10px 0 rgba(0,0,0,0.3);
+}
+
+.book-block a {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.book-block .image {
+  margin-top: auto;
+}
+
+// Notifications
+.notification-list { margin: 2rem 0; }
+
+.notification-list .box { margin-bottom: 1rem; }
+
+.notification-list .box:hover {
+  background-color: whitesmoke;
+}
+
+.notification-list a {
+  color: #363636;
+}
+
+.notification-list img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.notification-list .unread {
+  border-left: 4px solid #23d160;
+}
+
+.datetimepicker-dummy .datetimepicker-clear-button {
+  margin: .2rem;
+}
+
+.datetimepicker-dummy.is-primary:before, .datetimepicker-dummy.is-primary::before {
+  background: transparent;
+}
+
+.truncate-text {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.book-title {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding: 0.5rem;
+  font-weight: bold;
+  text-align: left;
+  color: #333;
+  display: flex;
+  margin-top: auto;
+}
+
+.title, .subtitle {
+  line-height: 1.4;
+}
+
+.pull-center {
+  text-align: center;
+}
+
+.tab-shown { display: block; }
+.tab-hidden { display: none; }
+.tab-content { margin: 1rem 0; }
+
+.filter-container {
+  padding-bottom: 0.5rem;
+  margin-bottom: 0.5rem;
+  border-bottom: 1px solid #eee;
+}
+
+.filter-header {
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+.filter-header a { text-transform: uppercase; }
+
+@media screen and (max-width: 800px) {
+  .is-responsive {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    display: block;
+    position: relative;
+  }
+  .is-responsive td:empty:before {
+    content: " ";
+  }
+  .is-responsive th,
+  .is-responsive td {
+    margin: 0;
+    vertical-align: top;
+  }
+  .is-responsive th {
+    text-align: left;
+  }
+  .is-responsive thead {
+    border-right: solid 2px #dbdbdb;
+    display: block;
+    float: left;
+  }
+  .is-responsive thead tr {
+    display: block;
+    padding: 0 10px 0 0;
+  }
+  .is-responsive thead tr th::before {
+    content: " ";
+  }
+  .is-responsive thead td,
+  .is-responsive thead th {
+    border-width: 0 0 1px;
+  }
+  .is-responsive tbody {
+    display: block;
+    width: auto;
+    position: relative;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+  .is-responsive tbody tr {
+    display: inline-block;
+    vertical-align: top;
+  }
+  .is-responsive th {
+    display: block;
+    text-align: right;
+  }
+  .is-responsive td {
+    display: block;
+    min-height: 1.25em;
+    text-align: left;
+  }
+  .is-responsive th:last-child,
+  .is-responsive td:last-child {
+    border-bottom-width: 0;
+  }
+  .is-responsive tr:last-child td:not(:last-child) {
+    border: 1px solid #dbdbdb;
+    border-width: 0 0 1px;
+  }
+  .is-responsive.is-bordered td,
+  .is-responsive.is-bordered th {
+    border-width: 1px;
+  }
+  .is-responsive.is-bordered tr td:last-child,
+  .is-responsive.is-bordered tr th:last-child {
+    border-bottom-width: 1px;
+  }
+  .is-responsive.is-bordered tr:last-child td,
+  .is-responsive.is-bordered tr:last-child th {
+    border-width: 1px;
+  }
+
+  .responsive-table {
+    margin: 1em 0;
+    min-width: 300px;
+
+    tr {
+      border-top: 1px solid #ddd;
+      border-bottom: 1px solid #ddd;
+    }
+
+    th {
+      display: none;
+    }
+
+    td {
+      display: block;
+
+      &:first-child {
+        padding-top: .5em;
+      }
+      &:last-child {
+        padding-bottom: .5em;
+        margin-bottom: 1rem;
+      }
+
+      &:before {
+        content: attr(data-th)": ";
+        font-weight: bold;
+
+        width: 6.5em;
+        display: inline-block;
+
+        @media (min-width: 800px) {
+          display: none;
+        }
+      }
+    }
+
+    th, td {
+      text-align: left;
+
+      @media (min-width: 800px) {
+        display: table-cell;
+        padding: .25em .5em;
+
+        &:first-child {
+          padding-left: 0;
+        }
+
+        &:last-child {
+          padding-right: 0;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .navbar-menu.is-active {
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    border-bottom: none;
+  }
+}
+
+.tag-header {
+  margin-bottom: 1rem;
+}
+
+.book-image {
+  border-radius: 2px;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.12);
+}
+
+
+.vue-file-agent .file-preview .file-delete {
+  position: absolute !important;
+  z-index: 900 !important;
+  border-radius: 50% !important;
+  background: hsla(0,0%,100%,.95) !important;
+  color: #222 !important;
+  margin: 0 !important;
+  width: 33px !important;
+  height: 33px !important;
+  right: 5px !important;
+  top: 5px !important;
+  padding: 2px !important;
+  font-size: 18px !important;
+}
