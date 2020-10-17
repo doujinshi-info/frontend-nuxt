@@ -28,7 +28,7 @@
       :aria-next-label="$t('Common.next')"
       :aria-previous-label="$t('Common.prev')"
       :aria-page-label="$t('Common.page')"
-      :aria-current-label="$t('Common.currentpage')"
+      :aria-current-label="$t('Common.currentPage')"
       @change="onPageChange"
     >
       <b-pagination-button

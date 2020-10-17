@@ -39,7 +39,7 @@
               <div class="content">
                 <span v-if="notification.type == 'new_doujin'">
                   {{
-                    $t(`PageAccountNotifications.newDoujin`, {
+                    $t(`PageAccountNotifications.newDoujinText`, {
                       tag: getLocalizedName(notification.tag.name),
                       book: getLocalizedName(notification.book.name)
                     })
