@@ -85,7 +85,7 @@ export default {
   auth: {
     strategies: {
       local: {
-        _scheme: 'refresh',
+        scheme: 'refresh',
         token: {
           property: 'access_token',
           maxAge: 600
@@ -105,7 +105,7 @@ export default {
           user: { url: '/auth/user', method: 'get' },
           logout: { url: '/auth/logout', method: 'post' }
         },
-        autoLogout: false
+        autoLogout: true
       }
     },
     redirect: {

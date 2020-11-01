@@ -179,8 +179,10 @@ export default {
       aliases: (tagData.aliases ? tagData.aliases : []),
       description_english: (tagData.description ? tagData.description.english : null),
       description_japanese: (tagData.description ? tagData.description.japanese : null),
-      links: (tagData.links ? tagData.links : []),
+      links: (tagData.links ? tagData.links : {}),
       event_dates: (tagData.event ? [] : null),
+      date_start: (tagData.event ? tagData.date_start : null),
+      date_end: (tagData.event ? tagData.date_end : null),
       tags: []
     }
 
@@ -189,13 +191,13 @@ export default {
 
     if (tagData.event) {
       if (tagData.event.date_start) {
-        tag.event_dates.push(tagData.event.date_start)
+        tag.event_dates.push(new Date(tagData.event.date_start))
       }
 
       if (tagData.event.date_end) {
-        tag.event_dates.push(tagData.event.date_end)
+        tag.event_dates.push(new Date(tagData.event.date_end))
       } else {
-        tag.event_dates.push(tagData.event.date_start)
+        tag.event_dates.push(new Date(tagData.event.date_start))
       }
     }
 

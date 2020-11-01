@@ -401,7 +401,7 @@ export default {
     book.removed_samples = []
 
     if (!book.links) {
-      book.links = []
+      book.links = {}
     }
 
     return {

@@ -159,7 +159,7 @@ export default {
     return {
       tag: {
         tags: [],
-        links: []
+        links: {}
       },
       selectedSeries: [],
       selectedCircles: [],

@@ -327,7 +327,7 @@ export default {
         pages: null,
         price: null,
         tags: [],
-        links: []
+        links: {}
       },
       selectedSeries: [],
       selectedArtists: [],
