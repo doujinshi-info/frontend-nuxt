@@ -6,7 +6,7 @@
       </p>
     </header>
     <section class="modal-card-body">
-      <b-field label="Reason">
+      <b-field :label="$t('Report.reason')">
         <b-radio v-model="report.reason" native-value="duplicate">
           {{ $t('Report.reasonDuplicate') }}
         </b-radio>

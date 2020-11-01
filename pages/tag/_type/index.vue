@@ -108,7 +108,7 @@ export default {
   },
   head () {
     return {
-      title: this.$t('PageTags.title') + ' : ' + this.$t('tagTypes.' + this.tagType)
+      title: this.$t('PageTags.title') + ' : ' + this.$t('TagTypes.' + this.tagType)
     }
   }
 }

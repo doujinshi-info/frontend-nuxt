@@ -52,6 +52,7 @@
     "buttonText": "Report",
     "title": "Report",
     "notes": "Notes",
+    "reason": "Reason",
     "reasonDuplicate": "Duplicate",
     "reasonSpam": "Spam",
     "reasonRemoval": "Removal request",
@@ -76,7 +77,7 @@
     "title": "Doujinshi.info"
   },
   "PageEditBook": {
-    "title": "Edit doujin"
+    "title": "Edit doujinshi"
   },
   "PageChangelog": {
     "title": "Changelog"
@@ -331,7 +332,8 @@
         "event_start": "Start Date",
         "event_end": "End Date",
         "description_english": "English Description",
-        "description_japanese": "Japanese Description"
+        "description_japanese": "Japanese Description",
+        "links": "Links"
       }
     }
   },

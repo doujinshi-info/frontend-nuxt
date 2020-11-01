@@ -43,7 +43,7 @@
           <td>&yen; {{ stats.average_price }}</td>
         </tr>
         <tr>
-          <th>{{ $t('Statistics.averagepages') }}</th>
+          <th>{{ $t('Statistics.averagePages') }}</th>
           <td>{{ stats.average_pages.toLocaleString() }}</td>
         </tr>
         <tr>
