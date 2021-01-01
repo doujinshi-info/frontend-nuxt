@@ -14,6 +14,12 @@
       </template>
 
       <template slot="end">
+        <b-navbar-dropdown v-if="this.$auth.loggedIn && this.$auth.user.is_admin" :label="$t('Navigation.admin')">
+          <b-navbar-item href="/admin/deletions">
+            {{ $t('Navigation.adminDeletions') }}
+          </b-navbar-item>
+        </b-navbar-dropdown>
+
         <b-navbar-item href="/about">
           {{ $t('Navigation.about') }}
         </b-navbar-item>

@@ -35,6 +35,8 @@
     "accountProfile": "プロフィール",
     "accountSettings": "設定",
     "accountWishlist": "ウィッシュリスト",
+    "admin": "管理",
+    "adminDeletions": "削除リクエスト",
     "changelog": "変更ログ",
     "contribute": "貢献",
     "contributeDoujinshi": "同人誌の登録",
@@ -47,6 +49,9 @@
     "signup": "サインアップ",
     "statistics": "統計",
     "tags": "タグ"
+  },
+  "Deletion": {
+    "title": "削除リクエスト"
   },
   "Report": {
     "buttonText": "報告",
@@ -141,6 +146,12 @@
   },
   "PageStatistics": {
     "title": "統計"
+  },
+  "PageDeletions": {
+    "title": "削除リクエスト",
+    "content": "コンテンツ",
+    "approveSuccess": "リクエストは承認され、コンテンツは削除されました。",
+    "rejectSuccess": "リクエストは拒否され、コンテンツはアクティブなままです。"
   },
   "PageTags": {
     "title": "タグ",

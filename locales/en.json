@@ -35,6 +35,8 @@
     "accountProfile": "Profile",
     "accountSettings": "Settings",
     "accountWishlist": "Wishlist",
+    "admin": "Admin",
+    "adminDeletions": "Deletions",
     "changelog": "Changelog",
     "contribute": "Contribute",
     "contributeDoujinshi": "Create doujinshi",
@@ -47,6 +49,9 @@
     "signup": "Sign up",
     "statistics": "Statistics",
     "tags": "Tags"
+  },
+  "Deletion": {
+    "title": "Deletion Request"
   },
   "Report": {
     "buttonText": "Report",
@@ -141,6 +146,12 @@
   },
   "PageStatistics": {
     "title": "Statistics"
+  },
+  "PageDeletions": {
+    "title": "Deletions",
+    "content": "Content",
+    "approveSuccess": "Request has been approved and the content removed.",
+    "rejectSuccess": "Request has been rejected and the content remains active."
   },
   "PageTags": {
     "title": "Tags",
