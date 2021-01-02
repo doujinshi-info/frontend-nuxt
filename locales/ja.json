@@ -17,7 +17,8 @@
     "createdAt": "作成日",
     "updatedAt": "最終更新日",
     "tag": "タグ",
-    "type": "タイプ"
+    "type": "タイプ",
+    "nsfw": "R18"
   },
   "Meta": {
     "Description": {

@@ -31,7 +31,7 @@
           <div class="column has-text-centered is-12">
             <a @click="galleryIndex = 0">
               <figure class="image book-image">
-                <img :src="(book.cover ? book.cover : '~/assets/images/now_printing_thumb.jpg')">
+                <img :src="getBookCover(book)" :alt="getLocalizedName(book.name)">
               </figure>
             </a>
           </div>
@@ -85,10 +85,19 @@ export default {
 
     return {
       book,
-      sliderItems: (book.samples ? book.samples.map(sample => ({
-        image: sample,
-        thumbnail: sample.replace('.jpg', '-thumb.jpg')
-      })) : []),
+      sliderItems: (book.samples ? book.samples.map((sample) => {
+        if (book.is_adult && context.$auth.$storage.getCookie('sfw')) {
+          return {
+            image: sample,
+            thumbnail: require('~/assets/images/now_printing_thumb.jpg')
+          }
+        } else {
+          return {
+            image: sample,
+            thumbnail: sample.replace('.jpg', '-thumb.jpg')
+          }
+        }
+      }) : []),
       galleryImages: images,
       galleryIndex: null
     }
@@ -96,6 +105,19 @@ export default {
   computed: {
     circles () {
       return this.getTagSet('circle', this.book.tags)
+    }
+  },
+  methods: {
+    getBookCover (book) {
+      if (book.is_adult && this.$auth.$storage.getCookie('sfw')) {
+        return require('~/assets/images/now_printing_thumb.jpg')
+      }
+
+      if (book.cover) {
+        return book.cover.replace('.jpg', '-thumb.jpg')
+      } else {
+        return require('~/assets/images/now_printing_thumb.jpg')
+      }
     }
   },
   head () {

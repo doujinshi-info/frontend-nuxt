@@ -107,10 +107,14 @@ export default {
       })
     },
     getBookCover (book) {
+      if (book.is_adult && this.$auth.$storage.getCookie('sfw')) {
+        return require('~/assets/images/now_printing_thumb.jpg')
+      }
+
       if (book.cover) {
         return book.cover.replace('.jpg', '-thumb.jpg')
       } else {
-        return '~assets/images/now_printing_thumb.jpg'
+        return require('~/assets/images/now_printing_thumb.jpg')
       }
     }
   }

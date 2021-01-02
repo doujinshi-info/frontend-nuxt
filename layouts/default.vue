@@ -36,13 +36,23 @@
           {{ $t('Navigation.tags') }}
         </b-navbar-item>
 
-        <b-navbar-item v-if="!this.$auth.loggedIn" href="/account/create">
-          {{ $t('Navigation.signup') }}
-        </b-navbar-item>
+        <b-navbar-dropdown v-if="!this.$auth.loggedIn" :label="$t('Navigation.account')">
+          <b-navbar-item>
+            <b-switch v-model="nsfw" size="is-small">
+              {{ $t('Common.nsfw') }}
+            </b-switch>
+          </b-navbar-item>
 
-        <b-navbar-item v-if="!this.$auth.loggedIn" href="/account/login">
-          {{ $t('Navigation.login') }}
-        </b-navbar-item>
+          <hr class="navbar-divider">
+
+          <b-navbar-item href="/account/create">
+            {{ $t('Navigation.signup') }}
+          </b-navbar-item>
+
+          <b-navbar-item href="/account/login">
+            {{ $t('Navigation.login') }}
+          </b-navbar-item>
+        </b-navbar-dropdown>
 
         <b-navbar-dropdown v-if="this.$auth.loggedIn" :label="$t('Navigation.contribute')">
           <b-navbar-item href="/create/tag">
@@ -59,6 +69,14 @@
         </b-navbar-dropdown>
 
         <b-navbar-dropdown v-if="this.$auth.loggedIn" :label="$t('Navigation.account')">
+          <b-navbar-item>
+            <b-switch v-model="nsfw" size="is-small">
+              {{ $t('Common.nsfw') }}
+            </b-switch>
+          </b-navbar-item>
+
+          <hr class="navbar-divider">
+
           <b-navbar-item :href="`/profile/${this.$auth.user.slug}`">
             {{ $t('Navigation.accountProfile') }}
           </b-navbar-item>
@@ -118,6 +136,23 @@ export default {
   components: {
     Search,
     LocaleSelector
+  },
+  data () {
+    return {
+      nsfw: !this.$auth.$storage.getCookie('sfw')
+    }
+  },
+  watch: {
+    nsfw (value) {
+      this.$auth.$storage.setCookie('sfw', !value)
+      this.nsfw = value
+    }
+  },
+  mounted () {
+    if (this.nsfw === undefined) {
+      this.$auth.$storage.setCookie('sfw', false)
+      this.nsfw = false
+    }
   },
   methods: {
     async authLogout () {

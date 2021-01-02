@@ -17,7 +17,8 @@
     "createdAt": "Created at",
     "updatedAt": "Updated at",
     "tag": "Tag",
-    "type": "Type"
+    "type": "Type",
+    "nsfw": "NSFW"
   },
   "Meta": {
     "Description": {
