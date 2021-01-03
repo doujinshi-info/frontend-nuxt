@@ -461,6 +461,11 @@ export default {
 
       this.book._method = 'PUT'
 
+      // Convert dateTime to YYYY-MM-DD
+      if (this.book.date_released) {
+        this.book.date_released = this.book.date_released.toISOString().slice(0, 10)
+      }
+
       const formData = serialize(this.book)
 
       const config = {
