@@ -450,7 +450,6 @@ export default {
         delete this.book.cover
       }
 
-      // new samples
       this.book.samples = []
 
       this.sampleImages.forEach((value, index) => {
