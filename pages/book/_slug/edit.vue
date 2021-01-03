@@ -459,13 +459,15 @@ export default {
         }
       })
 
+      this.book._method = 'PUT'
+
       const formData = serialize(this.book)
 
       const config = {
         headers: { 'content-type': 'multipart/form-data' }
       }
 
-      await this.$axios.$put('/book', formData, config).then((res) => {
+      await this.$axios.$post(`/book/${this.book.slug}`, formData, config).then((res) => {
         this.$router.push(`/book/${res.slug}`)
       }).catch((e) => {
         this.$buefy.toast.open({
