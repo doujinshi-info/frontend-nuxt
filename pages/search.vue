@@ -39,7 +39,7 @@ export default {
     const currentPage = query.page || 1
     const searchQuery = query.q || ''
 
-    const books = await $axios.$get('/search', {
+    const books = await $axios.$get('search', {
       params: {
         q: searchQuery,
         page: currentPage

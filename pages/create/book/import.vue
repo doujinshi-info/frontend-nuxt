@@ -51,8 +51,6 @@ export default {
           type: 'is-danger'
         })
       })
-
-      this.$nuxt.$loading.end()
     }
   },
   head () {

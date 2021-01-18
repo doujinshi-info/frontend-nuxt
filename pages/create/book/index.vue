@@ -264,7 +264,7 @@
           <b-input v-model="book.links.dmm" type="url" icon="link" />
         </b-field>
 
-        <b-field :label="$t('book_info.cover')">
+        <b-field :label="$t('Doujin.cover')">
           <vue-file-agent
             ref="vueFileAgentCover"
             v-model="book.cover"
@@ -283,7 +283,7 @@
           />
         </b-field>
 
-        <b-field :label="$t('book_info.samples')">
+        <b-field :label="$t('Doujin.samples')">
           <vue-file-agent
             ref="vueFileAgentSamples"
             v-model="book.samples"
@@ -327,7 +327,8 @@ export default {
         pages: null,
         price: null,
         tags: [],
-        links: {}
+        links: {},
+        samples: []
       },
       selectedSeries: [],
       selectedArtists: [],
