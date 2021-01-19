@@ -82,8 +82,8 @@ export default {
     const currentPage = Number((context.query.page || 1))
     const tagType = context.route.params.type
     const query = context.query.q || null
-    const apiPath = (query ? `search/tag/${tagType}?q=${query}&page=` : `tag/${tagType}?page=`)
-    const uriPath = (query ? `/tag/${tagType}?q=${query}&page=` : `tag/${tagType}?page=`)
+    const apiPath = (query ? `/search/tag/${tagType}?q=${query}&page=` : `/tag/${tagType}?page=`)
+    const uriPath = (query ? `/tag/${tagType}?q=${query}&page=` : `/tag/${tagType}?page=`)
 
     const tags = await context.$axios.$get(apiPath + currentPage)
 
