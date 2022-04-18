@@ -16,6 +16,7 @@
     "@mdi/font": "^5.8.55",
     "@nuxtjs/auth-next": "^5.0.0-1602966760.822bc05",
     "@nuxtjs/axios": "^5.12.2",
+    "@nuxtjs/google-gtag": "^1.0.4",
     "@nuxtjs/pwa": "^3.2.2",
     "bulma": "^0.9.1",
     "chart.js": "^2.9.4",

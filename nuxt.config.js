@@ -69,7 +69,15 @@ export default {
     // Doc: https://auth.nuxtjs.org
     '@nuxtjs/auth-next',
     // Doc: https://i18n.nuxtjs.org
-    'nuxt-i18n'
+    'nuxt-i18n',
+    // Doc: https://github.com/nuxt-community/google-gtag-module
+    ['@nuxtjs/google-gtag', {
+      id: process.env.GOOGLE_TAG_ID,
+      config: {
+        anonymize_ip: true,
+        send_page_view: false
+      }
+    }]
   ],
   pwa: {
     manifest: {

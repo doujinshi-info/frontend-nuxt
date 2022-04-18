@@ -14,3 +14,4 @@ services:
       - LOCALE_URL_JA=ja.localhost
       - API_URL=https://api.doujinshi.info/v1
       - PUSH_KEY=
+      - GOOGLE_TAG_ID=
