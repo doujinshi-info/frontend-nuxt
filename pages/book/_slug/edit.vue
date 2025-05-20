@@ -444,8 +444,8 @@ export default {
     async editBook () {
       this.$nuxt.$loading.start()
 
-      if (this.coverImage.file !== undefined) {
-        this.book.cover = this.coverImage.file
+      if (this.coverImage && this.coverImage[0].file !== undefined) {
+        this.book.cover = this.coverImage[0].file
       } else {
         delete this.book.cover
       }
